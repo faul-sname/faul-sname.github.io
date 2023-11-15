@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+    <head>
+    </head>
+    <body>
+        <canvas></canvas>
+        <table>
+            <tr style="display:none">
+                <th><label for="r">Red</label></th>
+                <td><input type="range" id="r" min="-2" max="2" value="0" step="0.05" /></td>
+                <td><output id="rOut">0.00</output></td>
+            </tr>
+            <tr style="display:none">
+                <th><label for="g">Green</label></th>
+                <td><input type="range" id="g" min="-2" max="2" value="0" step="0.05" /></td>
+                <td><output id="gOut">0.00</output></td>
+            </tr>
+            <tr style="display:none">
+                <th><label for="b">Blue</label></th>
+                <td><input type="range" id="b" min="-2" max="2" value="0" step="0.05" /></td>
+                <td><output id="bOut">0.00</output></td>
+            </tr>
+            <tr style="display:none">
+                <th><label for="h">Hue</label></th>
+                <td><input type="range" id="h" min="-2" max="2" value="0" step="0.05" /></td>
+                <td><output id="hOut">0.00</output></td>
+            </tr>
+            <tr style="display:none">
+                <th><label for="s">Saturation</label></th>
+                <td><input type="range" id="s" min="-2" max="2" value="0" step="0.05" /></td>
+                <td><output id="sOut">0.00</output></td>
+            </tr>
+            <tr>
+                <th><label for="l">Luminance Diff Strength Multiplier</label></th>
+                <td><input type="range" id="l" min="0" max="3" value="0" step="0.05" /></td>
+                <td><output id="lOut">0.00</output></td>
+            </tr>
+        </table>
+        <script src="traincat.js"></script>
+    </body>
+</html>
